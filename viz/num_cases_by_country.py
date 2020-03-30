@@ -35,9 +35,9 @@ figure1, axes1 = plt.subplots(top_num, 1, figsize=(8, 14), sharey=True)
 figure2, axes2 = plt.subplots(top_num, 1, figsize=(8, 14), sharey=True)
 figure3, axes3 = plt.subplots(top_num, 1, figsize=(8, 14), sharey=True)
 
-figure1.subplots_adjust(left=0.05, bottom=0.03, right=0.95, top=0.98, wspace=0, hspace=0.25)
-figure2.subplots_adjust(left=0.05, bottom=0.03, right=0.95, top=0.98, wspace=0, hspace=0.25)
-figure3.subplots_adjust(left=0.05, bottom=0.03, right=0.95, top=0.98, wspace=0, hspace=0.25)
+figure1.subplots_adjust(left=0.05, bottom=0.06, right=0.95, top=0.98, wspace=0, hspace=0.25)
+figure2.subplots_adjust(left=0.05, bottom=0.06, right=0.95, top=0.98, wspace=0, hspace=0.25)
+figure3.subplots_adjust(left=0.05, bottom=0.06, right=0.95, top=0.98, wspace=0, hspace=0.25)
 
 axes1 = axes1.T.flatten()
 axes2 = axes2.T.flatten()
@@ -55,15 +55,17 @@ for i in range(top_num):
     fatality_rate_country = fatality_rate.country[i]
 
     sub_num_cases = num_cases_pivot[cases_country].reset_index()
-    total_cases = cum_cases[cum_cases.country == cases_country].cum_cases.values[0]
+    total_cases1 = cum_cases[cum_cases.country == cases_country].cum_cases.values[0]
+    total_deaths1 = cum_deaths[cum_deaths.country == cases_country].cum_deaths.values[0]
 
     sub_num_deaths = num_deaths_pivot[deaths_country].reset_index()
-    total_deaths = cum_deaths[cum_deaths.country == deaths_country].cum_deaths.values[0]
+    total_cases2 = cum_cases[cum_cases.country == deaths_country].cum_cases.values[0]
+    total_deaths2 = cum_deaths[cum_deaths.country == deaths_country].cum_deaths.values[0]
 
     sub_num_cases1 = num_cases_pivot[fatality_rate_country].reset_index()
-    total_cases1 = cum_cases[cum_cases.country == fatality_rate_country].cum_cases.values[0]
+    total_cases3 = cum_cases[cum_cases.country == fatality_rate_country].cum_cases.values[0]
     sub_num_deaths1 = num_deaths_pivot[fatality_rate_country].reset_index()
-    total_deaths1 = cum_deaths[cum_deaths.country == fatality_rate_country].cum_deaths.values[0]
+    total_deaths3 = cum_deaths[cum_deaths.country == fatality_rate_country].cum_deaths.values[0]
     sub_fatality_rate = sub_num_cases.copy()
     sub_fatality_rate[fatality_rate_country] = (
             sub_num_deaths1[fatality_rate_country].cumsum() / sub_num_cases1[fatality_rate_country].cumsum()).values
@@ -85,7 +87,7 @@ for i in range(top_num):
     ax1 = sns.barplot(x='date', y=cases_country, data=sub_num_cases, color="salmon", saturation=1, zorder=999, ax=ax1)
     ax2 = sns.barplot(x='date', y=deaths_country, data=sub_num_deaths, color="#333333", saturation=1, zorder=999,
                       ax=ax2)
-    ax3.stackplot(sub_fatality_rate.date, sub_fatality_rate[fatality_rate_country], color="#999999", zorder=999)
+    ax3.stackplot(sub_fatality_rate.index, sub_fatality_rate[fatality_rate_country], color="#999999", zorder=999)
 
     # === Set params ===
     # 1. Off labels
@@ -113,9 +115,9 @@ for i in range(top_num):
     ax1.set_xticklabels(texts[:, 1], ha='right')
     ax2.set_xticks(texts[:, 0])
     ax2.set_xticklabels(texts[:, 1], ha='right')
-    ax3.set_xticks(texts[:, 1])
+    ax3.set_xticks(texts[:, 0])
     ax3.set_xticklabels(texts[:, 1], ha='right')
-    ax3.set_xlim(data.date.min(), data.date.max())
+    ax3.set_xlim(0, sub_fatality_rate.index[-1])
 
     gap = 4000
     label1 = np.arange(gap, max_num_new_cases, gap)
@@ -142,19 +144,19 @@ for i in range(top_num):
 
     ax1.text(int(len(ticklabel_list) / 2), max_num_new_cases * 0.9,
              '%s\n%d cases, %d deaths (%0.2f%%)' % (
-                 cases_country, total_cases, total_deaths, (total_deaths / total_cases * 100)),
+                 cases_country, total_cases1, total_deaths1, (total_deaths1 / total_cases1 * 100)),
              bbox=dict(facecolor='w', alpha=0.5, edgecolor='none'),
              ha='center', va='top', zorder=9999)
 
     ax2.text(int(len(ticklabel_list) / 2), max_num_new_deaths * 0.9,
              '%s\n%d cases, %d deaths (%0.2f%%)' % (
-                 deaths_country, total_cases, total_deaths, (total_deaths / total_cases * 100)),
+                 deaths_country, total_cases2, total_deaths2, (total_deaths2 / total_cases2 * 100)),
              bbox=dict(facecolor='w', alpha=0.5, edgecolor='none'),
              ha='center', va='top', zorder=9999)
 
-    ax3.text(int(ticklabel_list[int(len(ticklabel_list) / 2)]._text), max_fatality_rate * 0.9,
+    ax3.text(int(len(ticklabel_list) / 2), max_fatality_rate * 0.9,
              '%s\n%d cases, %d deaths (%0.2f%%)' % (
-                 fatality_rate_country, total_cases1, total_deaths1, (total_deaths1 / total_cases1 * 100)),
+                 fatality_rate_country, total_cases3, total_deaths3, (total_deaths3 / total_cases3 * 100)),
              bbox=dict(facecolor='w', alpha=0.5, edgecolor='none'),
              ha='center', va='top', zorder=9999)
 
