@@ -28,6 +28,6 @@ country_list = \
      'Sweden',
      'Switzerland',
      'Turkey',
-     'Uk',
+     'UK',
      'US',
      ]
