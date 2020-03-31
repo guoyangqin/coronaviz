@@ -1,7 +1,6 @@
 from lib.DataScraper import DataScraper
 import pandas as pd
 import time
-from datetime import datetime
 
 
 def extract_case_data_by_country(country_list):
