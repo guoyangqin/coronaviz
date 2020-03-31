@@ -21,6 +21,6 @@ def extract_case_data_by_country(country_list):
     print('[%dsec] Completed...' % (time.time() - start))
 
     # Export data
-    result.to_csv('export/covid19_case_data_%s.csv' % datetime.today().strftime('%Y%m%d'), index=False)
+    result.to_csv('export/covid19_case_data_lastest.csv', index=False)
 
     return result

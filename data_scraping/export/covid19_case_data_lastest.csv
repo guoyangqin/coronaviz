@@ -43,6 +43,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,409,26,42,1,Algeria
 20200328,454,29,45,3,Algeria
 20200329,511,31,57,2,Algeria
+20200330,584,35,73,4,Algeria
 20200215,15,0,15,0,Australia
 20200216,15,0,0,0,Australia
 20200217,15,0,0,0,Australia
@@ -87,6 +88,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,3378,13,328,0,Australia
 20200328,3635,14,257,1,Australia
 20200329,4163,17,528,3,Australia
+20200330,4460,19,297,2,Australia
 20200215,0,0,0,0,Austria
 20200216,0,0,0,0,Austria
 20200217,0,0,0,0,Austria
@@ -131,6 +133,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,7697,58,788,9,Austria
 20200328,8271,68,574,10,Austria
 20200329,8788,86,517,18,Austria
+20200330,9618,108,830,22,Austria
 20200215,1,0,1,0,Belgium
 20200216,1,0,0,0,Belgium
 20200217,1,0,0,0,Belgium
@@ -175,6 +178,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,7284,289,1049,69,Belgium
 20200328,9134,353,1850,64,Belgium
 20200329,10836,431,1702,78,Belgium
+20200330,11899,513,1063,82,Belgium
 20200215,0,0,0,0,Brazil
 20200216,0,0,0,0,Brazil
 20200217,0,0,0,0,Brazil
@@ -219,6 +223,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,3417,92,432,15,Brazil
 20200328,3904,114,487,22,Brazil
 20200329,4256,136,352,22,Brazil
+20200330,4630,163,374,27,Brazil
 20200215,8,0,8,0,Canada
 20200216,8,0,0,0,Canada
 20200217,8,0,0,0,Canada
@@ -263,6 +268,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,4757,55,714,16,Canada
 20200328,5655,60,898,5,Canada
 20200329,6320,65,665,5,Canada
+20200330,7448,89,1128,24,Canada
 20200122,571,17,571,17,China
 20200123,830,25,259,8,China
 20200124,1287,41,457,16,China
@@ -331,6 +337,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,81394,3295,54,3,China
 20200328,81439,3300,45,5,China
 20200329,81439,3300,0,0,China
+20200330,81518,3305,79,5,China
 20200215,0,0,0,0,Denmark
 20200216,0,0,0,0,Denmark
 20200217,0,0,0,0,Denmark
@@ -375,6 +382,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,2046,52,169,11,Denmark
 20200328,2201,65,155,13,Denmark
 20200329,2395,72,194,7,Denmark
+20200330,2577,77,182,5,Denmark
 20200215,12,1,12,1,France
 20200216,12,1,0,0,France
 20200217,12,1,0,0,France
@@ -419,6 +427,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,32964,1995,3809,299,France
 20200328,37575,2314,4611,319,France
 20200329,40174,2606,2599,292,France
+20200330,44550,3024,4376,418,France
 20200215,16,0,16,0,Germany
 20200216,16,0,0,0,Germany
 20200217,16,0,0,0,Germany
@@ -463,6 +472,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,50871,351,6933,84,Germany
 20200328,57695,433,6824,82,Germany
 20200329,62435,541,4740,108,Germany
+20200330,66885,645,4450,104,Germany
 20200215,0,0,0,0,Greece
 20200216,0,0,0,0,Greece
 20200217,0,0,0,0,Greece
@@ -507,6 +517,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,966,28,74,1,Greece
 20200328,1061,32,95,4,Greece
 20200329,1156,39,95,7,Greece
+20200330,1212,46,56,7,Greece
 20200215,3,0,3,0,India
 20200216,3,0,0,0,India
 20200217,3,0,0,0,India
@@ -551,6 +562,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,887,20,160,0,India
 20200328,987,24,100,4,India
 20200329,1024,27,37,3,India
+20200330,1251,32,227,5,India
 20200215,0,0,0,0,Indonesia
 20200216,0,0,0,0,Indonesia
 20200217,0,0,0,0,Indonesia
@@ -595,6 +607,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,1046,87,153,9,Indonesia
 20200328,1155,102,109,15,Indonesia
 20200329,1285,114,130,12,Indonesia
+20200330,1414,122,129,8,Indonesia
 20200215,0,0,0,0,Iran
 20200216,0,0,0,0,Iran
 20200217,0,0,0,0,Iran
@@ -639,6 +652,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,32332,2378,2926,144,Iran
 20200328,35408,2517,3076,139,Iran
 20200329,38309,2640,2901,123,Iran
+20200330,41495,2757,3186,117,Iran
 20200215,0,0,0,0,Iraq
 20200216,0,0,0,0,Iraq
 20200217,0,0,0,0,Iraq
@@ -683,6 +697,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,458,40,76,4,Iraq
 20200328,506,42,48,2,Iraq
 20200329,547,42,41,0,Iraq
+20200330,630,46,83,4,Iraq
 20200215,0,0,0,0,Ireland
 20200216,0,0,0,0,Ireland
 20200217,0,0,0,0,Ireland
@@ -727,6 +742,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,2121,22,302,3,Ireland
 20200328,2415,36,294,14,Ireland
 20200329,2615,46,200,10,Ireland
+20200330,2910,54,295,8,Ireland
 20200215,0,0,0,0,Israel
 20200216,0,0,0,0,Israel
 20200217,0,0,0,0,Israel
@@ -771,6 +787,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,3035,12,342,4,Israel
 20200328,3619,12,584,0,Israel
 20200329,4247,15,628,3,Israel
+20200330,4695,16,448,1,Israel
 20200215,3,0,3,0,Italy
 20200216,3,0,0,0,Italy
 20200217,3,0,0,0,Italy
@@ -815,6 +832,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,86498,9134,5909,919,Italy
 20200328,92472,10023,5974,889,Italy
 20200329,97689,10779,5217,756,Italy
+20200330,101739,11591,4050,812,Italy
 20200215,22,0,22,0,Malaysia
 20200216,22,0,0,0,Malaysia
 20200217,22,0,0,0,Malaysia
@@ -859,6 +877,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,2161,26,130,3,Malaysia
 20200328,2320,27,159,1,Malaysia
 20200329,2470,35,150,8,Malaysia
+20200330,2626,37,156,2,Malaysia
 20200215,0,0,0,0,Netherlands
 20200216,0,0,0,0,Netherlands
 20200217,0,0,0,0,Netherlands
@@ -903,6 +922,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,8603,546,1172,112,Netherlands
 20200328,9762,639,1159,93,Netherlands
 20200329,10866,771,1104,132,Netherlands
+20200330,11750,864,884,93,Netherlands
 20200215,0,0,0,0,Norway
 20200216,0,0,0,0,Norway
 20200217,0,0,0,0,Norway
@@ -947,6 +967,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,3771,19,399,5,Norway
 20200328,4015,23,244,4,Norway
 20200329,4284,26,269,3,Norway
+20200330,4445,32,161,6,Norway
 20200215,3,1,3,1,Philippines
 20200216,3,1,0,0,Philippines
 20200217,3,1,0,0,Philippines
@@ -991,6 +1012,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,803,54,96,9,Philippines
 20200328,1075,68,272,14,Philippines
 20200329,1418,71,343,3,Philippines
+20200330,1546,78,128,7,Philippines
 20200215,0,0,0,0,Poland
 20200216,0,0,0,0,Poland
 20200217,0,0,0,0,Poland
@@ -1035,6 +1057,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,1389,16,168,0,Poland
 20200328,1638,18,249,2,Poland
 20200329,1862,22,224,4,Poland
+20200330,2055,31,193,9,Poland
 20200215,0,0,0,0,Portugal
 20200216,0,0,0,0,Portugal
 20200217,0,0,0,0,Portugal
@@ -1079,6 +1102,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,4268,76,724,16,Portugal
 20200328,5170,100,902,24,Portugal
 20200329,5962,119,792,19,Portugal
+20200330,6408,140,446,21,Portugal
 20200215,28,0,28,0,South Korea
 20200216,29,0,1,0,South Korea
 20200217,30,0,1,0,South Korea
@@ -1123,6 +1147,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,9332,139,91,8,South Korea
 20200328,9478,144,146,5,South Korea
 20200329,9583,152,105,8,South Korea
+20200330,9661,158,78,6,South Korea
 20200215,2,0,2,0,Spain
 20200216,2,0,0,0,Spain
 20200217,2,0,0,0,Spain
@@ -1167,6 +1192,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,65719,5138,7933,773,Spain
 20200328,73235,5982,7516,844,Spain
 20200329,80110,6803,6875,821,Spain
+20200330,87956,7716,7846,913,Spain
 20200215,1,0,1,0,Sweden
 20200216,1,0,0,0,Sweden
 20200217,1,0,0,0,Sweden
@@ -1211,6 +1237,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,3069,105,229,28,Sweden
 20200328,3447,105,378,0,Sweden
 20200329,3700,110,253,5,Sweden
+20200330,4028,146,328,36,Sweden
 20200215,0,0,0,0,Switzerland
 20200216,0,0,0,0,Switzerland
 20200217,0,0,0,0,Switzerland
@@ -1255,6 +1282,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,12928,231,1117,39,Switzerland
 20200328,14076,264,1148,33,Switzerland
 20200329,14829,300,753,36,Switzerland
+20200330,15922,359,1093,59,Switzerland
 20200215,0,0,0,0,Turkey
 20200216,0,0,0,0,Turkey
 20200217,0,0,0,0,Turkey
@@ -1299,6 +1327,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,5698,92,2069,17,Turkey
 20200328,7402,108,1704,16,Turkey
 20200329,9217,131,1815,23,Turkey
+20200330,10827,168,1610,37,Turkey
 20200215,9,0,9,0,UK
 20200216,9,0,0,0,UK
 20200217,9,0,0,0,UK
@@ -1343,6 +1372,7 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200327,14543,759,2885,181,UK
 20200328,17089,1019,2546,260,UK
 20200329,19522,1228,2433,209,UK
+20200330,22141,1408,2619,180,UK
 20200215,15,0,15,0,US
 20200216,15,0,0,0,US
 20200217,15,0,0,0,US
@@ -1386,4 +1416,5 @@ date,cum_cases,cum_deaths,new_cases,new_deaths,country
 20200326,85435,1295,17224,268,US
 20200327,104126,1695,18691,400,US
 20200328,123578,2220,19452,525,US
-20200329,143491,2582,19913,362,US
+20200329,143491,2583,19913,363,US
+20200330,163844,3156,20353,573,US

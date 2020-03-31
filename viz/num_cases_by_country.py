@@ -6,7 +6,7 @@ import numpy as np
 plt.rcParams['font.family'] = "arial"
 plt.rcParams['svg.fonttype'] = 'none'
 
-data_dir = '../data_scraping/export/covid19_case_data_20200330.csv'
+data_dir = '../data_scraping/export/covid19_case_data_lastest.csv'
 data = pd.read_csv(data_dir)
 num_cases_pivot = pd.pivot_table(data, values='new_cases', index=['date'], columns=['country']).fillna(0)
 num_deaths_pivot = pd.pivot_table(data, values='new_deaths', index=['date'], columns=['country']).fillna(0)
