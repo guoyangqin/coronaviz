@@ -10,6 +10,7 @@ country_list = \
      'France',
      'Germany',
      'Greece',
+     'China Hong Kong SAR',
      'India',
      'Indonesia',
      'Iran',

@@ -11,6 +11,7 @@ country_demographics = \
      'France': {'pop_million': 66.99, 'age65plus': 0.20, 'pop_per_km2': 117.37},
      'Germany': {'pop_million': 82.79, 'age65plus': 0.21, 'pop_per_km2': 232},
      'Greece': {'pop_million': 10.74, 'age65plus': 0.22, 'pop_per_km2': 82},
+     'China Hong Kong SAR': {'pop_million': 7.48, 'age65plus': 0.17, 'pop_per_km2': 6300},
      'India': {'pop_million': 1339, 'age65plus': 0.06, 'pop_per_km2': 464},
      'Indonesia': {'pop_million': 264, 'age65plus': 0.06, 'pop_per_km2': 140.08},
      'Iran': {'pop_million': 81.16, 'age65plus': 0.06, 'pop_per_km2': 52},

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/data_scraping.iml" filepath="$PROJECT_DIR$/.idea/data_scraping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coronaviz.iml" filepath="$PROJECT_DIR$/.idea/coronaviz.iml" />
     </modules>
   </component>
 </project>

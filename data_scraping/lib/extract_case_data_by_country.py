@@ -1,4 +1,4 @@
-from lib.DataScraper import DataScraper
+from data_scraping.lib.DataScraper import DataScraper
 import pandas as pd
 import time
 
@@ -20,6 +20,6 @@ def extract_case_data_by_country(country_list):
     print('[%dsec] Completed...' % (time.time() - start))
 
     # Export data
-    result.to_csv('export/covid19_case_data_lastest.csv', index=False)
+    result.to_csv('data_scraping/export/covid19_case_data_lastest.csv', index=False)  #
 
     return result
