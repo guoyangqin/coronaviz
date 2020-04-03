@@ -147,7 +147,8 @@ def plot_figure():
 
         # 2. Set ticklabels
         label = np.arange(20200101, current_date, 100)
-        label = np.append(label, current_date)
+        if current_date % 100 > 15:
+            label = np.append(label, current_date)
         ticklabel_list = list(ax1.get_xticklabels())
         texts = np.array([[i, int(xtl._text)] for i, xtl in enumerate(ticklabel_list) if int(xtl._text) in label])
 
