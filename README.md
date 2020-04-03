@@ -11,7 +11,7 @@ Data source: https://www.worldometers.info/coronavirus/
 
 #### 01 Number of new cases (×1000) per day by country
 
-![Number of new cases (×1000) per day by country](\viz\illustration\export\figure_edit_num_new_cases.jpg)
+![Number of new cases (×1000) per day by country](https://github.com/Qin-et-al/coronaviz/blob/master/viz/illustration/export/figure_edit_num_new_cases.jpg)
 
 
 
