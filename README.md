@@ -3,7 +3,7 @@ Visulization of COVID-19 pandemic.
 
 Data source: https://www.worldometers.info/coronavirus/
 
-
+Author: Guoyang Qin
 
 ## Latest viz
 
@@ -11,7 +11,7 @@ Data source: https://www.worldometers.info/coronavirus/
 
 #### 01 Number of new cases (×1000) per day by country
 
-![Number of new cases (×1000) per day by country](https://github.com/Qin-et-al/coronaviz/blob/master/viz/illustration/export/figure_edit_num_new_cases.jpg)
+![COVID-19 number of new cases (×1000) per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_num_new_cases.jpg)
 
 
 
@@ -19,13 +19,13 @@ Data source: https://www.worldometers.info/coronavirus/
 
 `Infection rate := num. of total cases/population`
 
-![Number of new cases (×1000) per day by country](\viz\illustration\export\figure_edit_infection_rate.jpg)
+![COVID-19  infection rate (‰) per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_infection_rate.jpg)
 
 
 
 #### 03 Number of new deaths per day by country
 
-![Number of new cases (×1000) per day by country](\viz\illustration\export\figure_edit_num_new_deaths.jpg)
+![OVID-19  number of new deaths per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_num_new_deaths.jpg)
 
 
 
@@ -33,4 +33,4 @@ Data source: https://www.worldometers.info/coronavirus/
 
 `Fatality rate := num. of total cases/num. of total deaths`
 
-![Number of new cases (×1000) per day by country](\viz\illustration\export\figure_edit_fatality_rate.jpg)
+![COVID-19 fatality rate per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_fatality_rate.jpg)
