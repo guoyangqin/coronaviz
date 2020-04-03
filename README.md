@@ -5,7 +5,7 @@
 
 ## Latest data
 
-COVID-19 data of **30+ countries** ([view list](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/data_scraping/config/country_list.py)) with tracking records are collected from [worldometers](https://www.worldometers.info/coronavirus/) on a daily basis., with columns including number of cases and deaths. ([download lastest .csv](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/data_scraping/export/covid19_case_data_lastest.csv))
+COVID-19 data of **30+ countries** ([view list](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/data_scraping/config/country_list.py)) with tracking records are collected from [worldometers](https://www.worldometers.info/coronavirus/) on a daily basis, with columns including number of cases and deaths. ([download lastest .csv](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/data_scraping/export/covid19_case_data_lastest.csv))
 
 ## Latest viz
 
