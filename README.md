@@ -1,9 +1,11 @@
 # coronaviz
-Visulization of COVID-19 pandemic.
+**Daily data and visualization of COVID-19 pandemic.**
 
-Data source: https://www.worldometers.info/coronavirus/
+*Author: [Guoyang Qin](http://linkedin.com/in/gqin)*
 
-Author: [Guoyang Qin](http://linkedin.com/in/gqin)
+## Latest data
+
+COVID-19 data of **30+ countries** with tracking records are collected from [worldometers](https://www.worldometers.info/coronavirus/) on a daily basis., with columns including number of cases and deaths. [Download lastest .csv](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/data_scraping/export/covid19_case_data_lastest.csv)
 
 ## Latest viz
 
