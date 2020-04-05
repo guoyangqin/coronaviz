@@ -140,10 +140,10 @@ def plot_figure():
             ax3.set_xlabel('')
             ax4.set_xlabel('')
 
-            ax1.set_ylabel('')
-            ax2.set_ylabel('')
-            ax3.set_ylabel('')
-            ax4.set_ylabel('')
+        ax1.set_ylabel('')
+        ax2.set_ylabel('')
+        ax3.set_ylabel('')
+        ax4.set_ylabel('')
 
         # 2. Set ticklabels
         label = np.arange(20200101, current_date, 100)
@@ -163,27 +163,28 @@ def plot_figure():
         ax4.set_xticklabels(texts[:, 1], ha='right')
         ax4.set_xlim(0, sub_infection_rate.index[-1])
 
-        gap = 4000
+        tick_num = 4
+        gap = np.ceil(max_num_new_cases / tick_num / 1000) * 1000
         label1 = np.arange(gap, max_num_new_cases, gap)
         ax1.set_yticks(label1)
         ax1.set_yticklabels(np.int_(label1 / scale))
         ax1.set_ylim(0, max_num_new_cases)
 
-        gap = 200
+        gap = np.ceil(max_num_new_deaths / tick_num / 100) * 100
         label2 = np.arange(gap, max_num_new_deaths, gap)
         ax2.set_yticks(label2)
         ax2.set_yticklabels(np.int_(label2))
         ax2.set_ylim(0, max_num_new_deaths)
 
-        gap = 4 / 100
-        max_fatality_rate_tick = max_fatality_rate * 1.5
+        max_fatality_rate_tick = max_fatality_rate * 1.2
+        gap = np.round(max_fatality_rate_tick / tick_num, 2)
         label3 = np.arange(gap, max_fatality_rate_tick, gap)
         ax3.set_yticks(label3)
         ax3.set_yticklabels(np.int_(label3 * 100))
         ax3.set_ylim(0, max_fatality_rate_tick)
 
-        gap = 0.4 / 1000
         max_infection_rate_tick = max_infection_rate * 1.2
+        gap = np.round(max_infection_rate_tick / tick_num, 4)
         label4 = np.arange(gap, max_infection_rate_tick, gap)
         ax4.set_yticks(label4)
         ax4.set_yticklabels(np.round(label4 * 1000, 2))
