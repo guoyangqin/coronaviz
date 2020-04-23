@@ -13,7 +13,7 @@ COVID-19 data of **30+ countries** ([view list](https://raw.githubusercontent.co
 
 ### 01 Number of new cases (×1000) per day by country
 
-![COVID-19 number of new cases (×1000) per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_num_new_cases.jpg)
+![COVID-19 number of new cases (×1000) per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_num_new_cases.png)
 
 
 
@@ -21,13 +21,13 @@ COVID-19 data of **30+ countries** ([view list](https://raw.githubusercontent.co
 
 `Infection rate := num. of total cases/population`
 
-![COVID-19  infection rate (‰) per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_infection_rate.jpg)
+![COVID-19  infection rate (‰) per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_infection_rate.png)
 
 
 
 ### 03 Number of new deaths per day by country
 
-![OVID-19  number of new deaths per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_num_new_deaths.jpg)
+![COVID-19  number of new deaths per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_num_new_deaths.png)
 
 
 
@@ -35,4 +35,4 @@ COVID-19 data of **30+ countries** ([view list](https://raw.githubusercontent.co
 
 `Fatality rate := num. of total cases/num. of total deaths`
 
-![COVID-19 fatality rate per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_fatality_rate.jpg)
+![COVID-19 fatality rate per day by country](https://raw.githubusercontent.com/Qin-et-al/coronaviz/master/viz/illustration/export/figure_edit_fatality_rate.png)
